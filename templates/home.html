@@ -1,0 +1,18 @@
+<h1>WORD COUNT</h1>
+
+
+<!--creates form to input info-->
+<form action="{% url 'count' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br/>
+<!--create submit button-->
+    <input type="submit" value="Count!"/>
+    <br/>
+<!--creates link to about page-->
+    <a href="{% url 'about' %}">About</a>
+
+
+</form>
+
+
+
